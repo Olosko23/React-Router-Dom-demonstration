@@ -35,7 +35,7 @@ const Register = () => {
                 </div>
             </form>
             <div className="flex flex-row justify-center my-2 mx-2">
-            <p>Go back <Link to='/'><span className="text-2xl">Here</span></Link></p>
+            <p>Go back <Link to='/'><span className="text-xl">Here</span></Link></p>
             </div>    
             </div>
         </div>
