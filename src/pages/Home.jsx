@@ -15,7 +15,7 @@ const Home = () => {
                   <Link to='/Login'>Get Started</Link>
                   </button></p>
             </div>
-            <div>
+            <div className="hidden sm:flex">
                 <img className="rounded-2xl" src={hero} alt="ronaldo"/>
             </div>
         </div>
