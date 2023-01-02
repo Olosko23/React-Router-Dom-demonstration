@@ -33,7 +33,10 @@ const Register = () => {
                 <p>Already have an account? <Link className="font-semibold hover:scale-110" to='/Login'>Login</Link></p>  
 
                 </div>
-            </form>   
+            </form>
+            <div className="flex flex-row justify-center my-2 mx-2">
+            <p>Go back <Link to='/'><span className="text-2xl">Here</span></Link></p>
+            </div>    
             </div>
         </div>
     </div>

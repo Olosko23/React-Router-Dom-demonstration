@@ -30,7 +30,10 @@ const Login = () => {
                 <p>New User? <Link className="font-semibold hover:scale-110" to='/Register'>Register</Link></p>  
 
                 </div>
-            </form>   
+            </form>
+            <div className="flex flex-row justify-center my-2 mx-2">
+            <p>Go back <Link to='/'><span className="text-xl">Here</span></Link></p>
+            </div>   
             </div>
         </div>
     </div>
