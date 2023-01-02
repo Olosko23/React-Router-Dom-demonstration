@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -13,7 +14,7 @@ const Login = () => {
   return (
 
     <div className="grid place-items-center w-full h-screen">
-        <div className="w-1/3">
+        <div className="w-2/3">
             <div className="bg-gray-200 rounded-2xl h-fit w-full">
             <div className="text-3xl py-5 px-5 flex flex-row justify-center">
                 <p className='font-semibold mx-3 my-3'>Login</p>
@@ -26,7 +27,7 @@ const Login = () => {
                 <input className="rounded-full h-10 w-24 hover:scale-105 bg-blue-200 cursor-pointer font-semibold"type='submit' /> 
 
                 <div className="pt-5 py-5 w-30">
-                <p>New User? <a className="font-semibold hover:scale-110"href='/'>Register</a></p>  
+                <p>New User? <Link className="font-semibold hover:scale-110" to='/Register'>Register</Link></p>  
 
                 </div>
             </form>   

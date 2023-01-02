@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Register = () => {
     const [email, setEmail] = useState('');
@@ -29,7 +30,7 @@ const Register = () => {
                 <input className="rounded-full h-10 w-24 hover:scale-105 bg-blue-200 cursor-pointer font-semibold"type='submit' /> 
 
                 <div className="pt-5 py-5 w-30">
-                <p>Already have an account? <a className="font-semibold hover:scale-110"href='/'>Login</a></p>  
+                <p>Already have an account? <Link className="font-semibold hover:scale-110" to='/Login'>Login</Link></p>  
 
                 </div>
             </form>   
