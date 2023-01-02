@@ -21,7 +21,7 @@ const Navbar = () => {
                     <li className="hover:scale-105 font-medium cursor-pointer"><Link to='/Rugby'>Rugby</Link></li>
                 </ul>
             </div>
-            <div onClick={() => setNav(!nav)} className="flex md:hidden pr-2 z-10 cursor-pointer">
+            <div onClick={() => setNav(!nav)} className=" w-full flex md:hidden pr-2 z-10 cursor-pointer">
 
                 {nav ? <FaTimes className="pt-1"size={30}/>: <FaBars className="pt-1" size={30} />}
 
